@@ -1,0 +1,11 @@
+{% extends "NEW/base.html" %}
+{% block content %}
+<div>
+    <form action="" method='POST' enctype='multipart/form-data'>
+        {% csrf_token %}
+        {{ dada.as_p }}
+        <input type="submit" value="ADD ITEMS">
+    </form>
+</div>
+{% endblock  %}
+

@@ -1,0 +1,28 @@
+.header{
+    background-color:purple;
+    color: white;
+    border: 5px solid red;
+    text-align: center;
+    font-weight: bold;
+}
+.footer{
+    background-color: rgb(0, 255, 76);
+    color: white;
+    border: 5px solid red;
+}
+.in{
+    background-color: chartreuse;
+    color: darkgrey;
+}
+.log{
+    justify-content: center;
+    text-align: center;
+    font-weight: bold;
+}
+.nav{
+    background-color: black;
+}
+/* .nav-item:hover{
+ color:yellow;
+ background-color: purple;
+} */

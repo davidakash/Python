@@ -1,0 +1,10 @@
+{% extends "NEW/base.html" %}
+{% block content %}
+    <div>
+        <form action="" method="POST" enctype="multipart/form-data">
+            {% csrf_token %}
+            {{ Bill.as_p }}
+            <input type="submit" value="Add Items">
+        </form>
+    </div>
+    {% endblock  %}

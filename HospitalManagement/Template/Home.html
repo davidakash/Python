@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+{% block content %}
+{% include "navbar.html" %}
+<div>
+    <h1>
+        <center>HOME PAGE</center>
+    </h1>
+</div>
+<div>
+    <form action="" method="POST" enctype="multipart/form-data">
+        {% csrf_token %}
+        {{ OP.as_p }}
+        <input type="submit" value="SAVE DETAILES">
+    </form>
+</div>
+{% endblock %}

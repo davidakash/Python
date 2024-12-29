@@ -1,0 +1,53 @@
+.HOME {
+    background-color: orange;
+    color: thistle;
+    height: 100px;
+    width: auto;
+}
+
+.para {
+    height: 100px;
+    width: auto;
+    background-color: blue;
+    font-size: larger;
+}
+
+.asp {
+    background-color: yellowgreen;
+    color: white;
+    border: 5px solid red;
+}
+
+.footer_swiggy {
+    background-color: chocolate;
+    height: 100px;
+    border: 5px solid red;
+    text-align: center;
+}
+
+  .content {
+    height: 400px;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXOzAECGO9K_CM3U9wObNY3badC_2QKa74Dg&s");
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+    color:darkslategrey;
+ } 
+
+.aws {
+    background-color: yellowgreen;
+    color: white;
+    border: 5px solid red;
+}
+
+.asm {
+    background-color: yellowgreen;
+    color: white;
+    border: 5px solid red;
+}
+.table,td,th{
+    border: 2px solid;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+}

@@ -1,0 +1,21 @@
+{% extends "NEW/base.html" %}
+{% block content%}
+<div>
+    <center>
+    <table class='table'>
+        <tr>
+            <th>Id</th>
+            <th>Name</th>
+            <th>Price</th>
+        </tr>
+        {% for i in Items %}
+        <tr>
+            <td>{{ i.id }}</td>
+            <td>{{ i.Name }}</td>
+            <td>{{ i.Price }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+</center>
+</div>
+{% endblock %}
